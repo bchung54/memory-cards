@@ -1,25 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+import Main from './components/Main';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const cards = ['Lebron', 'Steph', 'Durant', 'Giannis', 'Jokic', 'Embiid', 'Tatum'];
+	const N = 6;
+	return (
+		<div className="App">
+			<header className="App-header">NBA All Stars Memory Game</header>
+			<Main cards={cards} N={N} />
+		</div>
+	);
 }
 
 export default App;
