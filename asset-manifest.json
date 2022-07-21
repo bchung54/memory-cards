@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/memory-cards/static/css/main.90b3c298.css",
+    "main.js": "/memory-cards/static/js/main.6d694a40.js",
+    "static/media/court-background.jpg": "/memory-cards/static/media/court-background.0a54cb3cc2f394fccdcd.jpg",
+    "static/media/SfDigitalReadoutHeavy-AwVg.ttf": "/memory-cards/static/media/SfDigitalReadoutHeavy-AwVg.8574e28fbe1be9b7da2d.ttf",
+    "static/media/ja.png": "/memory-cards/static/media/ja.ac5eb4fa6566d2041a2a.png",
+    "static/media/lebron.png": "/memory-cards/static/media/lebron.9e804a84e8c0debc0383.png",
+    "static/media/kevin.png": "/memory-cards/static/media/kevin.e299d753169cbee5b51c.png",
+    "static/media/demar.png": "/memory-cards/static/media/demar.ac4a2f2c14e93b1eef05.png",
+    "static/media/joel.png": "/memory-cards/static/media/joel.22e8ba4f078e1c30664a.png",
+    "static/media/trae.png": "/memory-cards/static/media/trae.4b03ff7338210531a687.png",
+    "static/media/giannis.png": "/memory-cards/static/media/giannis.821a56687d6ec661a1de.png",
+    "static/media/nikola.png": "/memory-cards/static/media/nikola.f4426f8e13a422d03bd5.png",
+    "static/media/andrew.png": "/memory-cards/static/media/andrew.9e0806695fc760791a98.png",
+    "static/media/stephen.png": "/memory-cards/static/media/stephen.ef2edf14915639c60688.png",
+    "index.html": "/memory-cards/index.html",
+    "main.90b3c298.css.map": "/memory-cards/static/css/main.90b3c298.css.map",
+    "main.6d694a40.js.map": "/memory-cards/static/js/main.6d694a40.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.90b3c298.css",
+    "static/js/main.6d694a40.js"
+  ]
+}
