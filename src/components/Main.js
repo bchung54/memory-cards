@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
+import '../styles/main.css';
 import Scoreboard from './Scoreboard';
 import Card from './Card';
 import uniqid from 'uniqid';
 
 function Main(props) {
-	const [cards, setCards] = useState(props.cards.slice(0, props.N));
 	const [selected, setSelected] = useState([]);
 	const [bestScore, setBestScore] = useState(0);
 
@@ -13,10 +13,13 @@ function Main(props) {
 			const j = Math.floor(Math.random() * (i + 1));
 			[array[i], array[j]] = [array[j], array[i]];
 		}
+		return array;
 	};
 
+	const [cards, setCards] = useState(shuffleArray(props.cards).slice(0, props.N));
+
 	const handleCardSelection = (e) => {
-		const text = e.target.textContent;
+		const text = e.target.parentElement.id;
 		if (selected.includes(text)) {
 			const currScore = selected.length;
 			if (bestScore < currScore) {
@@ -36,9 +39,18 @@ function Main(props) {
 	return (
 		<main>
 			<Scoreboard current={selected.length} best={bestScore} />
-			{cards.map((card) => {
-				return <Card key={uniqid()} text={card} onSelection={handleCardSelection} />;
-			})}
+			<div className="card-container">
+				{cards.map((card) => {
+					return (
+						<Card
+							key={uniqid()}
+							text={card.name}
+							img={card.img}
+							onSelection={handleCardSelection}
+						/>
+					);
+				})}
+			</div>
 		</main>
 	);
 }

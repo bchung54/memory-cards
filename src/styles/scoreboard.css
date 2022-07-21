@@ -1,0 +1,17 @@
+@font-face {
+    font-family: SFDigital;
+    src: url('../fonts/SfDigitalReadoutHeavy-AwVg.ttf');
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: 2rem;
+    border: 10px solid white;
+    padding: 1rem;
+    background-color: rgb(29, 29, 29);
+    color: orangered;
+    font-family: SFDigital;
+    font-size: 2.5rem;
+}

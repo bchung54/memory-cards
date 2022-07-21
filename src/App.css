@@ -1,0 +1,21 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url('./images/court-background.jpg');
+    background-size: cover;
+    font-family: Helvetica, sans-serif;
+}
+
+.App-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(5, 28, 35);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+}
